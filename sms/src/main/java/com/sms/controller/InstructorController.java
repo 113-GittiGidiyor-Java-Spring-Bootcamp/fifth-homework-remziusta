@@ -106,7 +106,7 @@ public class InstructorController {
 
     @GetMapping("/get-transactions-by-date")
     public ResponseEntity<Page<List<InstructorTransactionLogger>>> getAllTransactionsWithDate(
-            @ApiParam(value = "Transaction query for instructor usage", example = "05/07/2021", required = true)
+            @ApiParam(value = "Transaction query for instructor usage", example = "09/09/2021", required = true)
             @RequestParam String transactionDate,
             @RequestParam(required = false) Integer pageNumber,
             @RequestParam(required = false) Integer pageSize,

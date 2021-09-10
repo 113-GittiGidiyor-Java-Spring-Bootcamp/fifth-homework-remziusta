@@ -21,20 +21,20 @@ public class InstructorGetDTO {
     @ApiModelProperty(hidden = true)
     private Long id;
 
-    @ApiModelProperty(value = "CAGLAR OFLAZOGLU")
+    @ApiModelProperty(example = "CAGLAR OFLAZOGLU")
     @NotBlank(message = "Name is mandatory.")
     private String name;
 
-    @ApiModelProperty(value = "HATAY/ANTAKYA")
+    @ApiModelProperty(example = "HATAY/ANTAKYA")
     @NotBlank(message = "Address is mandatory.")
     private String address;
 
-    @ApiModelProperty(value = "5555555555")
+    @ApiModelProperty(example = "5555555555")
     @NotBlank(message = "Phone number is mandatory.")
     @Size(min = 10, max = 10,message = "Phone number must be 10 characters")
     private String phoneNumber;
 
-    @ApiModelProperty(value = "1000.0")
+    @ApiModelProperty(example = "1000.0")
     @NumberFormat(style = NumberFormat.Style.NUMBER)
     @NotNull(message = "Salary is mandatory.")
     private Double salary;

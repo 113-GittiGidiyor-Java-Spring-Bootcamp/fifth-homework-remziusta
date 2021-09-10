@@ -20,17 +20,17 @@ public class CoursePostDTO {
     @ApiModelProperty(hidden = true)
     private Long id;
 
-    @ApiModelProperty(value = "NESNE YONELIK PROGRAMLAMA - 1")
+    @ApiModelProperty(example = "NESNE YONELIK PROGRAMLAMA - 1")
     @NotBlank(message = "Course name is mandatory.")
     private String courseName;
 
-    @ApiModelProperty(value = "5")
+    @ApiModelProperty(example = "5")
     @NotNull(message = "Course credit is mandatory.")
     @Min(value = 1, message = "Credit must be greater than 1")
     @Max(value = 9, message = "Credit must be less than 9")
     private Integer courseCredit;
 
-    @ApiModelProperty(value = "NYP - 1")
+    @ApiModelProperty(example = "NYP - 1")
     @NotBlank(message = "Course code is mandatory.")
     private String courseCode;
 }

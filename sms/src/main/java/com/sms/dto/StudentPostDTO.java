@@ -18,19 +18,19 @@ public class StudentPostDTO {
     @ApiModelProperty(hidden = true)
     private Long id;
 
-    @ApiModelProperty(value = "Remzi")
+    @ApiModelProperty(example = "Remzi")
     @NotBlank(message = "Name is mandatory.")
     private String name;
 
-    @ApiModelProperty(value = "25")
+    @ApiModelProperty(example = "25")
     @NotNull(message = "Age is mandatory.")
     private LocalDate birthDate;
 
-    @ApiModelProperty(value = "HATAY/ISKENDERUN")
+    @ApiModelProperty(example = "HATAY/ISKENDERUN")
     @NotBlank(message = "Address is mandatory.")
     private String address;
 
-    @ApiModelProperty(value = "E or K")
+    @ApiModelProperty(example = "E or K")
     @NotNull(message = "Address is mandatory.")
     private char gender;
 }

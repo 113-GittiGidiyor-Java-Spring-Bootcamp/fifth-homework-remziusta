@@ -18,11 +18,11 @@ public class StudentSlimDTO {
     @ApiModelProperty(hidden = true)
     private Long id;
 
-    @ApiModelProperty(value = "Remzi")
+    @ApiModelProperty(example = "Remzi")
     @NotBlank(message = "Name is mandatory.")
     private String name;
 
-    @ApiModelProperty(value = "25")
+    @ApiModelProperty(example = "25")
     @NotNull(message = "Age is mandatory.")
     private LocalDate birthDate;
 }

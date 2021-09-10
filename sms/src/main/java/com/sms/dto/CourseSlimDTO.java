@@ -16,7 +16,7 @@ public class CourseSlimDTO {
     @ApiModelProperty(hidden = true)
     private Long id;
 
-    @ApiModelProperty(value = "NESNE YONELIK PROGRAMLAMA - 1")
+    @ApiModelProperty(example = "NESNE YONELIK PROGRAMLAMA - 1")
     @NotBlank(message = "Course name is mandatory.")
     private String courseName;
 }
