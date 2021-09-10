@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sms/SchoolMenagementSystem.iml" filepath="$PROJECT_DIR$/sms/SchoolMenagementSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fifth-homework-remziusta.iml" filepath="$PROJECT_DIR$/.idea/fifth-homework-remziusta.iml" />
+    </modules>
+  </component>
+</project>
